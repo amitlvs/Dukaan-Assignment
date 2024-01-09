@@ -1,3 +1,12 @@
+
+<img width="1425" alt="Screenshot 2024-01-09 at 8 31 03 PM" src="https://github.com/amitlvs/Dukaan-Assignment/assets/85306285/73dcd608-435f-4240-b32c-653046d20857">
+
+
+# Components
+ - Cards -> AmountProcessingCard/AmountCard/Payout Card
+ - Dukaan Table -> Table which holds data of 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
