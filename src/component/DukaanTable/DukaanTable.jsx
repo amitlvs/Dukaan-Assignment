@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Input, Table } from "antd";
+import { Button, Input, Table, Badge } from "antd";
 import { DownloadOutlined, SearchOutlined } from "@ant-design/icons";
 const columns = [
   {
@@ -10,6 +10,9 @@ const columns = [
   {
     title: "Status",
     dataIndex: "status",
+    render: (text, record) => (
+      <Badge color={record.status === "Successful" ? "green" : "blue"} text={text} />
+    ),
   },
   {
     title: "Transaction ID",
